@@ -1,2 +1,59 @@
 @charset "UTF-8";
 
+/* 
+    Paleta de Cores
+
+       Escura: #50363f
+       Azul: #4db8ff
+       Bege: #ecdf8a
+       Laranja: #F78B53 
+       Vermelho: #910E17
+
+*/
+
+* {
+    font-family: 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F78B53;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+}
+
+section#login > div#imagem {
+   display: block; 
+   background: #F78B53 url(../imagens/pexels-rotekirsche-20-3634832-5438696.jpg) no-repeat; 
+   height: 200px;
+   background-size: cover;
+   background-position: bottom center;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+
+}
